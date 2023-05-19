@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Row, Col,Accordion } from "react-bootstrap";
 import { useSpring, animated } from "react-spring";
 import Techstack from "./Techstack";
+import Particle from "../Particle";
+
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/coding.png";
 import Toolstack from "./Toolstack";
@@ -16,6 +18,8 @@ function About() {
   return (
     <Container fluid className="about-section">
       <Container>
+      <Particle/>
+
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
             md={7}
