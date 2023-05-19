@@ -78,6 +78,20 @@ function NavBar() {
                 My work
               </Nav.Link>
             </Nav.Item>
+            
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/Resume"
+                onClick={() => updateExpanded(false)}
+              >
+                <ImBlog
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Cv
+              </Nav.Link>
+            </Nav.Item>
 
           </Nav>
         </Navbar.Collapse>

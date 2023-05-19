@@ -26,7 +26,7 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Traveling salesman"
+              title="Shortest path for gas station Trucks"
               description="I developped with my classmates a desktop application to solve the shortest path problem for gas stations trucks 
               using python and Google maps API.
               "
